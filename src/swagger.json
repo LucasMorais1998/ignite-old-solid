@@ -45,7 +45,8 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "type": "string"
+                      "type": "string",
+                      "format": "uuid"
                     },
                     "admin": {
                       "type": "boolean",
@@ -87,7 +88,7 @@
                   "properties": {
                     "error": {
                       "type": "string",
-                      "description": "This email is already in use"
+                      "description": "User already exists"
                     }
                   },
                   "example": {
