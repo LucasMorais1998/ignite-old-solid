@@ -15,7 +15,7 @@
         "summary": "Create a user",
         "description": "Create a new user",
         "requestBody": {
-          "required": "true",
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
@@ -326,7 +326,7 @@
                   },
                   "example": {
                     "id": "28ff1f06-4570-4e46-9ed2-8b3e44ad4278",
-                    "admin": false,
+                    "admin": true,
                     "name": "John Doe",
                     "email": "john_doe@email.com",
                     "created_at": "2023-10-03T15:38:10.854Z",
