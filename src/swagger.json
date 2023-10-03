@@ -1,0 +1,14 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "SOLID",
+    "description": "This is an application to learn SOLID concepts",
+    "version": "1.0.0",
+    "contact": {
+      "email": "john_doe@email.com"
+    }
+  },
+  "paths": {
+    
+  }
+}
